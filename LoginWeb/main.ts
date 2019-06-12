@@ -41,8 +41,10 @@ function Login()
     {
         if (xhr.readyState == 4 && xhr.status == 200) 
         {
-            console.log(xhr.responseText);
+            if(xhr.responseText == "Logueado con éxito!")
+            window.location.replace("./BACKEND/default.php");
 
+            //Hacer una sesion en el momento del login. Para que si alguien entra a bienvenido.php sin haberse logueado tenga que loguearse (lo se porque no hay ninguna sesión) 
         }
     }
 }
