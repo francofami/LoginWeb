@@ -41,7 +41,8 @@ function Login()
     {
         if (xhr.readyState == 4 && xhr.status == 200) 
         {
-            alert(xhr.responseText);
+            console.log(xhr.responseText);
+
         }
     }
 }
