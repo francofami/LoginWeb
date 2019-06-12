@@ -30,7 +30,7 @@
                             </div>
                             <div class="form-group">
                                 <label for="remember-me" class="text-info"><span>Remember me</span> <span><input id="remember-me" name="remember-me" type="checkbox"></span></label><br>
-                                <input type="submit" name="submit" class="btn btn-info btn-md" value="Submit">
+                                <input type="submit" name="submit" class="btn btn-info btn-md" value="Submit" onclick="Login()">
                             </div>
                             <div id="register-link" class="text-right">
                                 <a data-toggle="modal" href="#myModal" class="text-info" >Register here</a>
@@ -67,7 +67,7 @@
                                 </div>
 
                                 <!-- Modal footer -->
-                                    <input type="submit" name="submit" class="btn btn-info btn-md" value="Submit">
+                                    <input type="submit" name="submit" class="btn btn-info btn-md" value="Submit" onclick="Registro()">
                                     <div class="modal-footer">
                                         <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
                                     </div>
